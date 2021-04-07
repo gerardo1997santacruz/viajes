@@ -1,24 +1,46 @@
-.header{
-    background: url(../img/carousel1.jpg) no-repeat center;
-    background-size: cover;
-    min-height: 100vh; 
+.header .navbar {
+  background-color: transparent !important;
 }
 
-.header .navbar{
-    background-color: transparent !important;
-    
+.navbar {
+  float: right;
 }
 
-.navbar{
-    float: right;
+.fondo {
+  background-color: black;
+  color: whitesmoke;
 }
 
-.fondo{
-    background-color: black;
-    color:whitesmoke ;
-
+.logo {
+  height: 40px;
 }
- 
-.logo{
-    height: 40px;
+
+body {
+  background-color: #080415;
+  font-family: "Montserrat";
+}
+
+.icono {
+  text-align: center;
+}
+
+.padding-card {
+  width: 18rem;
+  left: 5px;
+  right: 5px;
+}
+
+.tamaño {
+  height: 170px;
+}
+
+footer a {
+  color: white;
+}
+footer h3 {
+  color: white;
+  margin-top: 7px;
+}
+.icon-top {
+  margin-top: 15px;
 }
